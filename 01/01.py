@@ -10,7 +10,7 @@ for l in open('input'):
     print('stripped:', line)
     a = int(line[0])
     b = int(line[-1])
-    print(a, b)
+    print(10 * a + b)
     s += 10 * a + b
     print()
 
